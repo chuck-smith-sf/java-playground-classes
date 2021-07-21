@@ -1,7 +1,10 @@
 package com.chucksmith;
 
 public class Marker {
-
+    public Marker(boolean isCapped, float inLevel) {
+        this.isCapped = isCapped;
+        this.inLevel = inLevel;
+    }
 
     @Override
     public String toString() {
