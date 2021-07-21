@@ -5,20 +5,22 @@ import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 
-interface Animal {
-
-}
+//interface Animal {
+//
+//}
 
 
 public class Application {
 
     public static void main(String[] args) {
 
+
+
 // Overloading Constructor
-        Picture picture1 = new Picture(true, 5, 10);
-        System.out.println(picture1);
-        Picture picture2 = new Picture(10, 15);
-        System.out.println(picture2);
+//        Picture picture1 = new Picture(true, 5, 10);
+//        System.out.println(picture1);
+//        Picture picture2 = new Picture(10, 15);
+//        System.out.println(picture2);
 //        Marker marker1 = new Marker();
 //        System.out.println(marker1.toString());
 //        Marker marker2 = new Marker(true, .5f);

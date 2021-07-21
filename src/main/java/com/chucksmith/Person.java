@@ -1,4 +1,4 @@
 package com.chucksmith;
 
-public class Person implements Animal{
+public class Person /*implements Animal*/{
 }
