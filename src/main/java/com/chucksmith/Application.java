@@ -4,8 +4,10 @@ public class Application {
 
     public static void main(String[] args) {
         Order newOrder = new Order("1", "stuff");
+        Order newOrder2 = new Order(args[0], args[1]);
         System.out.println(newOrder.getCreatedDate());
         System.out.println(newOrder.getName());
+        System.out.println(newOrder2.getName() + " " + newOrder2.getOrderNumber());
 
 //        BankAccount account = new BankAccount();
 //        System.out.println(account);
