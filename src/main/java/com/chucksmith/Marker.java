@@ -1,6 +1,16 @@
 package com.chucksmith;
 
 public class Marker {
+
+    public Marker() {
+        this(false);
+    }
+
+    public Marker(boolean isCapped){
+        this(isCapped, 0.0f);
+    }
+
+    // considered primary constructor per design pattern
     public Marker(boolean isCapped, float inLevel) {
         this.isCapped = isCapped;
         this.inLevel = inLevel;

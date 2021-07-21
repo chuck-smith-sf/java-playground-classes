@@ -1,5 +1,6 @@
 package com.chucksmith;
 
+import javax.imageio.ImageReader;
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -8,22 +9,35 @@ interface Animal {
 
 }
 
+
 public class Application {
 
     public static void main(String[] args) {
 
-// Java Object Model
-        Person person = new Person();
-        //
-        System.out.println(person.toString());
-        System.out.println(person instanceof Person);
-        System.out.println(person instanceof Object);
+// Overloading Constructor
+        Picture picture1 = new Picture(true, 5, 10);
+        System.out.println(picture1);
+        Picture picture2 = new Picture(10, 15);
+        System.out.println(picture2);
+//        Marker marker1 = new Marker();
+//        System.out.println(marker1.toString());
+//        Marker marker2 = new Marker(true, .5f);
+//        System.out.println(marker2);
+//        Marker marker3 = new Marker(true);
+//        System.out.println(marker3);
 
-        Object obj = new Object();
-        System.out.println(obj instanceof Person);
-        System.out.println(person instanceof Animal);
-        ArrayList<String> list = new ArrayList<>();
-        System.out.println(list instanceof List);
+// Java Object Model
+//        Person person = new Person();
+//
+//        System.out.println(person.toString());
+//        System.out.println(person instanceof Person);
+//        System.out.println(person instanceof Object);
+//
+//        Object obj = new Object();
+//        System.out.println(obj instanceof Person);
+//        System.out.println(person instanceof Animal);
+//        ArrayList<String> list = new ArrayList<>();
+//        System.out.println(list instanceof List);
 
 
 // Constructors
